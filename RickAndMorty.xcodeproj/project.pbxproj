@@ -10,12 +10,21 @@
 		1A2C0DFC8322E2FF89DE18D2 /* libPods-RickAndMorty.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5BDEEC15B45BC6946632F70 /* libPods-RickAndMorty.a */; };
 		724933D1E7CC141CADEA4F88 /* libPods-RickAndMortyTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08A91D9B569AD8720832319C /* libPods-RickAndMortyTests.a */; };
 		FA3B6857234C102400CEE3CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3B6856234C102400CEE3CA /* AppDelegate.m */; };
-		FA3B685A234C102400CEE3CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3B6859234C102400CEE3CA /* ViewController.m */; };
 		FA3B685D234C102400CEE3CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3B685B234C102400CEE3CA /* Main.storyboard */; };
 		FA3B685F234C102600CEE3CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA3B685E234C102600CEE3CA /* Assets.xcassets */; };
 		FA3B6862234C102600CEE3CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3B6860234C102600CEE3CA /* LaunchScreen.storyboard */; };
 		FA3B6865234C102600CEE3CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3B6864234C102600CEE3CA /* main.m */; };
 		FA3B686F234C102700CEE3CA /* RickAndMortyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3B686E234C102700CEE3CA /* RickAndMortyTests.m */; };
+		FA3B6880234CE6B300CEE3CA /* EpisodesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3B687F234CE6B300CEE3CA /* EpisodesVC.m */; };
+		FA3B6881234CE6B300CEE3CA /* EpisodesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3B687F234CE6B300CEE3CA /* EpisodesVC.m */; };
+		FA3B6884234CE6CD00CEE3CA /* LocationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3B6883234CE6CD00CEE3CA /* LocationVC.m */; };
+		FA3B6885234CE6CD00CEE3CA /* LocationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3B6883234CE6CD00CEE3CA /* LocationVC.m */; };
+		FA3B6888234CE6E500CEE3CA /* CharactersVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3B6887234CE6E500CEE3CA /* CharactersVC.m */; };
+		FA3B6889234CE6E500CEE3CA /* CharactersVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3B6887234CE6E500CEE3CA /* CharactersVC.m */; };
+		FA3B688D234CEE7300CEE3CA /* EpisodesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3B688C234CEE7300CEE3CA /* EpisodesCell.m */; };
+		FA3B688E234CEE7300CEE3CA /* EpisodesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3B688C234CEE7300CEE3CA /* EpisodesCell.m */; };
+		FA3B6892234D4C6600CEE3CA /* EpisodeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3B6891234D4C6600CEE3CA /* EpisodeModel.m */; };
+		FA3B6893234D4C6600CEE3CA /* EpisodeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3B6891234D4C6600CEE3CA /* EpisodeModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +45,8 @@
 		E9A7BBB253F7144A72D977FF /* Pods-RickAndMortyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RickAndMortyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RickAndMortyTests/Pods-RickAndMortyTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F5BDEEC15B45BC6946632F70 /* libPods-RickAndMorty.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RickAndMorty.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA3B6852234C102400CEE3CA /* RickAndMorty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickAndMorty.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA3B6855234C102400CEE3CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		FA3B6856234C102400CEE3CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FA3B6858234C102400CEE3CA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FA3B6859234C102400CEE3CA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FA3B6855234C102400CEE3CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		FA3B6856234C102400CEE3CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
 		FA3B685C234C102400CEE3CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA3B685E234C102600CEE3CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA3B6861234C102600CEE3CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -48,6 +55,16 @@
 		FA3B686A234C102700CEE3CA /* RickAndMortyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RickAndMortyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA3B686E234C102700CEE3CA /* RickAndMortyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RickAndMortyTests.m; sourceTree = "<group>"; };
 		FA3B6870234C102700CEE3CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA3B687E234CE6B300CEE3CA /* EpisodesVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EpisodesVC.h; sourceTree = "<group>"; };
+		FA3B687F234CE6B300CEE3CA /* EpisodesVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EpisodesVC.m; sourceTree = "<group>"; };
+		FA3B6882234CE6CD00CEE3CA /* LocationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationVC.h; sourceTree = "<group>"; };
+		FA3B6883234CE6CD00CEE3CA /* LocationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationVC.m; sourceTree = "<group>"; };
+		FA3B6886234CE6E500CEE3CA /* CharactersVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CharactersVC.h; sourceTree = "<group>"; };
+		FA3B6887234CE6E500CEE3CA /* CharactersVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CharactersVC.m; sourceTree = "<group>"; };
+		FA3B688B234CEE7200CEE3CA /* EpisodesCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EpisodesCell.h; sourceTree = "<group>"; };
+		FA3B688C234CEE7300CEE3CA /* EpisodesCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EpisodesCell.m; sourceTree = "<group>"; };
+		FA3B6890234D4C6600CEE3CA /* EpisodeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EpisodeModel.h; sourceTree = "<group>"; };
+		FA3B6891234D4C6600CEE3CA /* EpisodeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EpisodeModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,10 +130,11 @@
 		FA3B6854234C102400CEE3CA /* RickAndMorty */ = {
 			isa = PBXGroup;
 			children = (
-				FA3B6855234C102400CEE3CA /* AppDelegate.h */,
-				FA3B6856234C102400CEE3CA /* AppDelegate.m */,
-				FA3B6858234C102400CEE3CA /* ViewController.h */,
-				FA3B6859234C102400CEE3CA /* ViewController.m */,
+				FA3B687D234CE69500CEE3CA /* episodes */,
+				FA3B687C234CE68D00CEE3CA /* location */,
+				FA3B687B234CE68500CEE3CA /* characters */,
+				FA3B687A234CE67D00CEE3CA /* model */,
+				FA3B6879234CE67500CEE3CA /* base */,
 				FA3B685B234C102400CEE3CA /* Main.storyboard */,
 				FA3B685E234C102600CEE3CA /* Assets.xcassets */,
 				FA3B6860234C102600CEE3CA /* LaunchScreen.storyboard */,
@@ -133,6 +151,53 @@
 				FA3B6870234C102700CEE3CA /* Info.plist */,
 			);
 			path = RickAndMortyTests;
+			sourceTree = "<group>";
+		};
+		FA3B6879234CE67500CEE3CA /* base */ = {
+			isa = PBXGroup;
+			children = (
+				FA3B6855234C102400CEE3CA /* AppDelegate.h */,
+				FA3B6856234C102400CEE3CA /* AppDelegate.m */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		FA3B687A234CE67D00CEE3CA /* model */ = {
+			isa = PBXGroup;
+			children = (
+				FA3B6890234D4C6600CEE3CA /* EpisodeModel.h */,
+				FA3B6891234D4C6600CEE3CA /* EpisodeModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		FA3B687B234CE68500CEE3CA /* characters */ = {
+			isa = PBXGroup;
+			children = (
+				FA3B6886234CE6E500CEE3CA /* CharactersVC.h */,
+				FA3B6887234CE6E500CEE3CA /* CharactersVC.m */,
+			);
+			path = characters;
+			sourceTree = "<group>";
+		};
+		FA3B687C234CE68D00CEE3CA /* location */ = {
+			isa = PBXGroup;
+			children = (
+				FA3B6882234CE6CD00CEE3CA /* LocationVC.h */,
+				FA3B6883234CE6CD00CEE3CA /* LocationVC.m */,
+			);
+			path = location;
+			sourceTree = "<group>";
+		};
+		FA3B687D234CE69500CEE3CA /* episodes */ = {
+			isa = PBXGroup;
+			children = (
+				FA3B687E234CE6B300CEE3CA /* EpisodesVC.h */,
+				FA3B687F234CE6B300CEE3CA /* EpisodesVC.m */,
+				FA3B688B234CEE7200CEE3CA /* EpisodesCell.h */,
+				FA3B688C234CEE7300CEE3CA /* EpisodesCell.m */,
+			);
+			path = episodes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,8 +349,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA3B685A234C102400CEE3CA /* ViewController.m in Sources */,
+				FA3B6888234CE6E500CEE3CA /* CharactersVC.m in Sources */,
+				FA3B6880234CE6B300CEE3CA /* EpisodesVC.m in Sources */,
 				FA3B6865234C102600CEE3CA /* main.m in Sources */,
+				FA3B688D234CEE7300CEE3CA /* EpisodesCell.m in Sources */,
+				FA3B6892234D4C6600CEE3CA /* EpisodeModel.m in Sources */,
+				FA3B6884234CE6CD00CEE3CA /* LocationVC.m in Sources */,
 				FA3B6857234C102400CEE3CA /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,6 +363,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA3B6881234CE6B300CEE3CA /* EpisodesVC.m in Sources */,
+				FA3B6893234D4C6600CEE3CA /* EpisodeModel.m in Sources */,
+				FA3B688E234CEE7300CEE3CA /* EpisodesCell.m in Sources */,
+				FA3B6885234CE6CD00CEE3CA /* LocationVC.m in Sources */,
+				FA3B6889234CE6E500CEE3CA /* CharactersVC.m in Sources */,
 				FA3B686F234C102700CEE3CA /* RickAndMortyTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
